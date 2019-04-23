@@ -1,0 +1,18 @@
+{
+  "name": "gonode-module-1-desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LucasMallmann/go-node-module1-desafion.git",
+  "author": "Lucas Mallmann <lucasmallmann76@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nunjucks": "^3.2.0"
+  }
+}

@@ -1,0 +1,10 @@
+{% extends "parent.njk" %}
+{% block content %}
+  <div class='box'>
+    <form class='age-form' method="POST" action="/check">
+      <h3>Informe sua idade</h3>
+      <input name="age" placeholder="Digite sua idade" />
+      <button type="submit">Salvar</button>
+    </form>
+  </div>
+{% endblock %}
