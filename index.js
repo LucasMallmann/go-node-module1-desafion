@@ -31,7 +31,7 @@ app.get("/minor", checkAgeMiddleware, (req, res) => {
 
 app.get("/major", checkAgeMiddleware, (req, res) => {
   const { age } = req.query;
-  return res.render("major");
+  return res.render("major", { age });
 });
 
 app.post("/check", (req, res) => {
@@ -43,4 +43,4 @@ app.post("/check", (req, res) => {
   }
 });
 
-app.listen(3000);
+app.listen(3001);
